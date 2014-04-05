@@ -1,0 +1,60 @@
+x="""
+Hello! She said, "This matters, I promise," because I said so. Don't worry about it.
+"""
+z="""
+Double quotes don't have issue "with" other double quotes "yay" she'said
+"""
+
+output="""
+Event Name \t \t Date\Time
+Happy Hour \t \t 7/21, 6:00 pm
+Jane's House Party \t 7/22, 8:00 pm
+"""
+
+#use slicing to print out the middle 3 numbers
+phone = "(123) 456-7890"
+print phone[6:9]
+
+phone="13306088444"
+print "Local: {0}-{1}".format(phone[4:7],phone[7:])
+print "Domestic: ({0}) {1}-{2}".format(phone[1:4],phone[4:7],phone[7:])
+print "International: +{0}-{1}-{2}-{3}".format(phone[0],phone[1:4],phone[4:7],phone[7:])
+
+#similar to ctrl+f
+email_address="sejlakaralic@gmail.com"
+email_address.find("@")
+
+#similar to ctrl+h
+phone = "555-1245"
+phone.replace("1245","1234")
+
+#find the length of your string
+len(phone)
+
+string2="Pie %%%%%%%%%%%"
+print string2.strip("%")
+
+#nesting functions if you want to count all "l's" not just a certain case
+string3="allcaps"
+print string3.upper().count("L")
+
+#Conditionals
+age=20
+
+if age >= 21:
+	print "I'll have a Three Philosophers"
+elif 21> age>=18:
+	print "I'm old enough to vote, but not enough to drink."
+else:
+	print "Why am I in this bar?"
+	
+###Create a quick calculator program that asks the 
+#user for their recruitment goal and their current 
+#recruitment numbers. The program should tell the 
+#user whether they are at, below, or above their 
+#goal.
+###
+
+
+
+
